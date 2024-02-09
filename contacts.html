@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <nav>
-            <ul>
+            <ul class="menu">
                 <li>
                     <a href="index.html">Sobre mim</a>
                 </li>
@@ -30,14 +30,23 @@
             <h2>Desenvolvedor de Software</h2>
         </header>
 
-        <form class="contact-form" action="https://formsubmit.co/de0c902e5efb12620b50a305f2ea3a3e" method="POST">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" required>
-            <label for="message">Mensagem</label>
-            <input type="hidden" name="_next" value="https://faccruz.github.io/githubpages/thanks.html">
-            <input type="text" name="message" id="message" required>
-            <button type="submit">Send</button>
-       </form>
+        <div class="box">
+            <div class="emailform">
+                <form class="contact-form" action="https://formsubmit.co/de0c902e5efb12620b50a305f2ea3a3e" method="POST">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="message">Mensagem</label>
+                    <input type="hidden" name="_next" value="https://faccruz.github.io/githubpages/thanks.html">
+                    <input type="text" name="message" id="message" required>
+                    <button type="submit">Send</button>
+                </form>
+            </div>  
+            <div class="outroscontatos">
+                <a href="https://wa.me/5515997382437?text=Olá" target="_blank" rel="noopener noreferrer">
+                    <img src="./image/WhatsAppButtonGreenMedium.svg"></img>
+                </a>                
+            </div>  
+        </div>    
     </div>    
 </body>
 </html>
